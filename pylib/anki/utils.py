@@ -296,7 +296,7 @@ def plat_desc() -> str:
 def version_with_build() -> str:
     from anki.buildinfo import buildhash, version
 
-    return f"{version} ({buildhash})"
+    return f"{version} ({buildhash}) - Edmund Leibert III private build"
 
 
 def int_version() -> int:
